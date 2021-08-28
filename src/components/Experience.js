@@ -30,14 +30,7 @@ const Experience = () => {
                         <p>I will add it later</p>
                     </div>
                 </div>
-                {/* - */}
-                <div className="timeline-block timeline-block-left">
-                    <div className="marker"></div>
-                    <div className="timeline-content">
-                        <h3>2020-2021</h3>
-                        <p>I will add it later</p>
-                    </div>
-                </div>
+                
             </div>
         </div>
     )
