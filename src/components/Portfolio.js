@@ -28,7 +28,16 @@ const Portfolio = () => {
                 </a>
             </>
         )
-        PopupboxManager.open({ content })
+        PopupboxManager.open({ content });
+
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Project 1",
+                },
+            },
+        });
     }
 
     const popupboxConfigProject1 = {
@@ -48,13 +57,22 @@ const Portfolio = () => {
                 <p>I will add it later</p>
                 <b>Github: </b>
                 <a className="hyper-link"
-                    onClick={() => window.open("https://ashwani-kumar-tiwari.github.io/Excel_Clone/", "_blank")}
+                    onClick={() => window.open("https://github.com/Ashwani-kumar-Tiwari/Camera_App")}
                 >
-                    https://ashwani-kumar-tiwari.github.io/Excel_Clone/
+                    https://github.com/Ashwani-kumar-Tiwari/Camera_App
                 </a>
             </>
         )
-        PopupboxManager.open({ content })
+        PopupboxManager.open({ content });
+
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Project 2",
+                },
+            },
+        });
     }
 
     const popupboxConfigProject2 = {
@@ -74,13 +92,22 @@ const Portfolio = () => {
                 <p>I will add it later</p>
                 <b>Github: </b>
                 <a className="hyper-link"
-                    onClick={() => window.open("https://ashwani-kumar-tiwari.github.io/Excel_Clone/", "_blank")}
+                    onClick={() => window.open("https://github.com/Ashwani-kumar-Tiwari/Reels_App")}
                 >
-                    https://ashwani-kumar-tiwari.github.io/Excel_Clone/
+                    https://github.com/Ashwani-kumar-Tiwari/Reels_App
                 </a>
             </>
         )
-        PopupboxManager.open({ content })
+        PopupboxManager.open({ content });
+
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Project 3",
+                },
+            },
+        });
     }
 
     const popupboxConfigProject3 = {
@@ -100,13 +127,22 @@ const Portfolio = () => {
                 <p>I will add it later</p>
                 <b>Github: </b>
                 <a className="hyper-link"
-                    onClick={() => window.open("https://ashwani-kumar-tiwari.github.io/Excel_Clone/", "_blank")}
+                    onClick={() => window.open("https://github.com/Ashwani-kumar-Tiwari/Resume_Builder")}
                 >
-                    https://ashwani-kumar-tiwari.github.io/Excel_Clone/
+                    https://github.com/Ashwani-kumar-Tiwari/Resume_Builder
                 </a>
             </>
         )
-        PopupboxManager.open({ content })
+        PopupboxManager.open({ content });
+
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Project 4",
+                },
+            },
+        });
     }
 
     const popupboxConfigProject4 = {
