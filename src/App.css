@@ -616,12 +616,34 @@ textarea.form-control {
   .contacts {
     overflow-x: hidden;
   }
-
+  
   .contacts .container {
     padding: 0 1rem;
   }
-
+  
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+/*--------------------------------Footer-----------------------------------------*/
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p{
+  margin-bottom: 0;
 }
