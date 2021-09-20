@@ -195,11 +195,12 @@ nav ul li {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  padding-left: 7rem;
 }
 .profile-img {
-  width: 30rem;
-  height: 18rem;
-  border-radius: 10%;
+  width: 15rem;
+  height: 20rem;
+  border-radius: 50%;
   padding: .3rem;
   border: 1px solid var(--primary-orange);
 }
@@ -212,9 +213,10 @@ nav ul li {
 @media (max-width: 468px) {
   .profile-img {
     width: 12rem;
-    height: 8rem;
+    height: 12rem;
   }
   .photo-wrap{
+    padding-left: 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -444,12 +446,13 @@ nav ul li {
 @media(max-width: 768px){
   .portfolio-image-popupbox {
     width: 80%;
+    height: 10rem;
   }
 }
 
 @media(max-width: 500px){
   .popupbox-wrapper {
-    height: 80%;
+    height: auto;
   }
   .portfolio-image-popupbox {
     width: 50%;
@@ -458,10 +461,11 @@ nav ul li {
 
 @media(max-width: 280px){
   .popupbox-wrapper {
-    height: 90%;
+    height: auto;
   }
   .portfolio-image-popupbox {
     width: 30%;
+    height: 6rem;
   }
 }
 /*--------------------------------cerificates-----------------------------------------*/
