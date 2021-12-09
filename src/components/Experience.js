@@ -21,12 +21,12 @@ const Experience = () => {
               <h3>2020-2021</h3>
               <p>
                 I was a software developer at Xorlabs. I have worked in 8-10
-                different models for Avaya in CML (Configuration Modeling
-                language). I have optimized code effectiveness by creating
-                global terms and implemented Footprints for connecting the one
-                model with another. I have also deployed all of the NPI updates
-                at the end of every week and fixed all the ALMs within the time
-                period.
+                distinct models for Avaya in CML (Configuration Modeling
+                language). By defining global terms and using Footprints to
+                connect one model to another, I was able to improve the
+                efficiency of my code. I've also delivered all of the NPI
+                updates at the end of each week and repaired all of the ALMs
+                within the specified time frame.
               </p>
             </div>
           </div>
@@ -36,10 +36,11 @@ const Experience = () => {
             <div className="timeline-content">
               <h3>2021-2022</h3>
               <p>
-                For the past six months, I am lerning Mern stack and data
-                structures & algorithms from pepcoding. I have created few
-                projects in the guidence of pepcondig techers. I have also
-                submited 200+ DSA questions of pepcding website.
+                I've been learning Mern stack and data structures & algorithms
+                from pepcoding for the past six months. I've worked on a couple
+                projects with the help of pepcoding professors. In addition, I
+                have 200+ DSA questions from the pepcoding website were
+                submitted.
               </p>
             </div>
           </div>
