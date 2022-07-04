@@ -1,7 +1,7 @@
 import React from "react";
-import author from "../me.jpg";
+import author from "../my_new_photo.jpeg";
 import result from "../Result.pdf";
-import resume from "../Ashwani_Kumar_Tiwari.pdf";
+// import resume from "../Ashwani_Kumar_Tiwari.pdf";
 
 const AboutMe = () => {
   function onDocumentLoadSuccess() {}
@@ -24,20 +24,39 @@ const AboutMe = () => {
             listed below. I have completed my bachelor's degree from ITS
             Engineering college with 7.7 CGPA.
             <br />
+          </p>
+          <p>
+            <b>My Skills : </b>C Programming, Core Java, Operating System, 
+            Computer Network, Data Structures & Algorithms, JavaScript, CML,
+            Node.js, Recat.js, HTML, CSS, Bootstrap
+          </p>
+          <p>
+            <b>My Achievements : </b>
+            <ul>
+              <li>
+                Gold badge in Python Programming on Hackerrank.
+              </li>
+              <li>
+                4-Star in C, Problem Solving and in SQL on Hackerrank.
+              </li>
+              <li>
+                Solved 200+ DSA questions on pepcoding portal.
+              </li>
+              <li>
+                Got performer award for successfully deploying all the NPI 
+                changes and resolving queries of QA teams.
+              </li>
+            </ul>
+          </p>
             <p>
               <a href={result} target="_blank">
                 See my result here
               </a>
-              &nbsp; &nbsp; &nbsp;
+              {/* &nbsp; &nbsp; &nbsp;
               <a href={resume} target="_blank">
                 See my resume here
-              </a>
+              </a> */}
             </p>
-          </p>
-          <p>
-            <b>My Skills : </b>C Programming, Core Java, JavaScript, CML,
-            Node.js, Recat.js, HTML, CSS, Bootstrap
-          </p>
         </div>
       </div>
     </div>

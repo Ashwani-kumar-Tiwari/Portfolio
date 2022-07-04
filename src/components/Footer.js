@@ -5,7 +5,13 @@ import {
     WhatsappShareButton,
     WhatsappIcon,
     TelegramShareButton,
-    TelegramIcon
+    TelegramIcon,
+    TwitterShareButton,
+    TwitterIcon,
+    InstapaperShareButton,
+    InstapaperIcon,
+    FacebookShareButton,
+    FacebookIcon
 } from "react-share";
 
 const Footer = () => {
@@ -43,24 +49,38 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
-              <div className="d-flex justify-content-center">
-                <LinkedinShareButton
-                  url={"https://www.linkedin.com/in/ashwani573/"}
-                >
-                  <LinkedinIcon className="mx-3" size={36}></LinkedinIcon>
-                </LinkedinShareButton>
-                <WhatsappShareButton url={"https://wa.me/917355297815"}>
-                  <WhatsappIcon className="mx-3" size={36}></WhatsappIcon>
-                </WhatsappShareButton>
-                <TelegramShareButton url={"https://t.me/Ashwani_Kumar_Tiwari"}>
-                  <TelegramIcon className="mx-3" size={36}></TelegramIcon>
-                </TelegramShareButton>
+              <div className="socialMedia d-flex justify-content-center">
+                  <LinkedinShareButton
+                    url={"https://www.linkedin.com/in/ashwani573/"}>
+                    <LinkedinIcon className="mx-3" size={36}></LinkedinIcon>
+                  </LinkedinShareButton>
+
+                  <TwitterShareButton
+                    url={"https://twitter.com/Ashwani_573"}>
+                    <TwitterIcon className="mx-3" size={36}></TwitterIcon>
+                  </TwitterShareButton>
+
+                  <WhatsappShareButton url={"https://wa.me/917355297815"}>
+                    <WhatsappIcon className="mx-3" size={36}></WhatsappIcon>
+                  </WhatsappShareButton>
+                </div>
+              {/* </div> */}
+              {/* <div className="col-lg-5 col-md-5 col-sm-6 align-items-center"> */}
+                <div className="socialMedia d-flex justify-content-center">
+                  <InstapaperShareButton
+                    url={"https://www.instagram.com/_ashwani.tiwari_/"}>
+                    <InstapaperIcon className="mx-3" size={36}></InstapaperIcon>
+                  </InstapaperShareButton>
+
+                  <TelegramShareButton url={"https://t.me/the_geek_ninja"}>
+                    <TelegramIcon className="mx-3" size={36}></TelegramIcon>
+                  </TelegramShareButton>
+
+                  <FacebookShareButton url={"https://www.facebook.com/profile.php?id=100008661013777"}>
+                    <FacebookIcon className="mx-3" size={36}></FacebookIcon>
+                  </FacebookShareButton>
+                </div>
               </div>
-              {/* <p className="pt-3 text-center">
-                            Copyright&copy;
-                            {new Date().getFullYear()}&nsp;New Horizan | All Rights Reserved
-                        </p> */}
-            </div>
           </div>
         </div>
       </div>
